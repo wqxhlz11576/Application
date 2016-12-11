@@ -1,0 +1,54 @@
+\documentclass{article}
+%\documentclass[10pt,journal,final,twocolumn]{IEEEtran}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{lipsum,multicol}
+\usepackage[colorlinks]{hyperref}
+\usepackage{times}
+%\title{Personal Statement}
+%\author{Qiao Wang\footnote{this is a footnote.}}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{0}
+%\renewcommand{\rmdefault}{ptm}\selectfont
+
+
+\begin{document}
+	\begin{center}
+		\textsc{\textbf{{\LARGE{}Personal Statement}}}\\*
+	\end{center}
+	\begin{center}
+		Qiao Wang\footnote{wq120168196@yahoo.com}
+	\end{center}
+	
+	\begin{multicols}{2}
+		I would like to apply for a Master's position in computer science at Texas A\&M. Given my working experience of Linux network development, I would focus on Distributed Systems \& Network Programming.
+		%\section{Project}
+		\section{\textsc{Project}}
+		\subsection{MT7620 Hardware Module for Letv Box}
+		I have participated in the project of building WIFI/BT hardware module for Letv box and was in charge of the development of a Wi-Fi test tool, which is a Windows-based software for RF evaluation and calibration during manufacturing. Since it was the first time that MT7620 chip was used in China, every time when I find test data abnormal, I would communicate with the engineer of MediaTek Inc and check every register value and then solve the problem. Notably, I have shortened the production duration, cut the cost and raised the production amount to 50k-60k per month by replacing the test-calibration with the calibration-test mode and by optimizing the algorithm of calibration.
+		\subsection{TD-W8960N ADSL2+ Modem Router}
+		TP-LINK’s TD-W8960N 300Mbps Wireless N ADSL2+ Modem Router is an all-in-one device that complies a full rate of ADSL2+ standard and is based on Broadcom chip. I was in charge of building and maintaining the modules of Quality of Service and of Dial-up Access. This project is benefit for my Linux-kernel network learning. While adding PPTP and L2TP module to the device, I found the throughput of PPTP and L2TP only 32M/s, which is far from the market threshold (70M/s) and results in a computer utilization rate of 100\% due to data pack processing. So I developed an acceleration module of PPTP and L2TP to obtain PPTP/L2TP data packs through data-link layer, process them through application layer instead and set the kernel free. As a result, the throughout reached 90M/s. The large project gave me an opportunity to work in a great team of six software and five hardware engineers, from which I have learned not only how to coordinate code management but also to cooperate with others in a big project.
+		\subsection{D9-TT Modem Router}
+		This project was for a bid for the order of AVEA, Turkey. In this project I fully implemented TR143 protocol to test network throughput performance and data statistics. It was quite a challenge, because I have to figure out every requirement of the protocol and then implement all the functions. At first, I was overwhelmed by the huge task. I adjusted my pace by dividing it into several sub-tasks and scheduled them so that I could concentrate on each of them one at a time. The success of the project taught me how to keep a clear mind under great pressure and how significant it is to write and run a trial to anticipate any tricky issue during the project.
+		\subsection{Bleasant Installed Box}
+		The Bleasant V2 Router, which provides the solution of advertisement and application distribution, is the project in which I worked as project manager for the first time. I was responsible for building all the function modules and monitoring its progress and quality. I had to have a control over all engineers in my team, especially when they were stuck somewhere, so I could give them a hand. Meanwhile, I had to reevaluate each one’s workload and make adjustments. It made everyone feel equal and fair, which ensured the project went smoothly.
+		%\vfill
+		%\columnbreak
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%\tableofcontents
+		%\vfill
+		%\columnbreak
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\section{\textsc{Motivation}}
+		I have long been bearing the idea of getting a master degree in America and I am officially determined to do so after a small thing happened months ago. In my interview for a job in Tencent, a veteran engineer asked me to implement the function of \textit{strcpy} (string copy). I thought it was a piece of cake because I had used that hundred times. However, I had never noted my weaknesses concerning error rectifying, my programming style, and algorithmic complexity analysis. It took me half an hour to repeatedly modify the program, but the interviewer was still not satisfied. I was deeply frustrated and started to ponder on a question: What is the difference between a skilled programmer and an advanced programmer. Eventually I found the answer as the basic knowledge. It is such an ordinary issue that I have been overlooking and stumbled by it all the time. Therefore, I decide to go back  school to consolidate my foundation.
+		\section{\textsc{Postgraduate \& Afterwards}}
+		Having done these projects and known the scope of network programming, I decide to pursue my master degree in Computer Science at Texas A\&M.
+		\subsection{Why Distributed System \& Network?}
+		Distributed System has always been my interest. It covers all my learnings and project experience, such as Linux network programming and algorithm, and represents my professional aspiration. To this end, I have studied \textit{Unix Network Programming}, practiced all the cases and exercises in the book as a way to solid my foundation of Linux network programming. I also finished the Online Course of \textit{Linux Network Programming Practice} and grasped the temperature of the \textit{TCP/IP} protocol stack. Now, I am implementing a \textit{TCP/IP} protocol stack in of one of my project on the purpose to figure out why the protocol is designed this way and how to implement it. I believe it would lay get me fully ready for the complex network environment while programming server.
+		Noticeably, I also find it interesting to process mass data with solid algorithm background, which is very common in distributed system. I have finished NO 6.006\footnote{http://courses.csail.mit.edu/6.006/spring11/notes.shtml} (Introduction to Algorithms) of the MIT on-line courses and all its assignments and exams. I was really impressed by the algorithmic proof. It made me even more determined to develop a strict logic in myself and fulfill my academic goal.
+		\subsection{Why Texas A\&M}
+		As one of the top universities, Texas A\&M has the best students all over the world. Working and studying with them would be a great experience and an ideal drive to enhance my own ability.
+		If I were admitted, besides taking courses and studying the basic knowledge, I would like to do some relevant research and learn how to write scientific papers in precise English language, so that I can abate the obstacle when publishing my paper.
+		After graduation, I would like to find a job or conduct research related to Distributed System \& Network Programming.
+	\end{multicols}
+\end{document}
