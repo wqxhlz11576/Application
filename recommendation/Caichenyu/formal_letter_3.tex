@@ -1,0 +1,93 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Letter of Notice
+% LaTeX Template
+% Version 1.1 (21/11/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rashadul Islam (ross08@gmail.com) with modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{letter} % 11pt default font size, other options: 12pt and 10pt
+
+\usepackage[a4paper, top=2cm]{geometry} % Use A4 paper size
+
+\usepackage{color} % Required for color customization
+
+\usepackage{fouriernc} % Use the New Century Schoolbook font, comment this line to use the default LaTeX font or replace it with another
+
+\usepackage{lipsum} % Required for inserting dummy text
+
+\definecolor{Navy}{RGB}{50,90,122} % Define a custom color for the heading box
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	DATE AND FROM ADDRESS
+%----------------------------------------------------------------------------------------
+
+\date{} % Use todays date and left-align it
+
+\begin{letter}{\large \bfseries TP-Link International South Bldg No 5 \\ Keyuan Rd Central Zone Science  \\ Technology Tepark Nanshan  \\ Shenzhen P R China} % From address or department
+
+%----------------------------------------------------------------------------------------
+%	HEADING BOX
+%----------------------------------------------------------------------------------------
+
+\colorbox{Navy}{ % Creates a highlight behind the text using the previously-defined navy color
+
+\parbox[t]{\linewidth}{ % Creates a box to take up the entire line width
+
+\vspace*{14pt} % Whitespace above the text
+
+\hfill \color{white} \textsc{\huge Reference Letter} % Right-aligned heading text
+
+\vspace*{14pt} % Whitespace below the text
+}}
+
+%----------------------------------------------------------------------------------------
+%	SIGNATURE
+%----------------------------------------------------------------------------------------
+
+\signature{
+Cai Chenyu \\ % Your name
+\textbf{Property Manager} \\ % Job title
+\textsc{Tp-Link Technologies Co., Ltd.} \\ % Company
+\small{E: caishenyu\_11@sina.com \\ M: +86-185-8903-6136} % Contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Admission Committee,}
+
+I was Qiao Wang's immediate superior throughout his career at TP-LINK Technologies CO., LTD. We have known each other for more than three years since he joined the company, and I am confident that he will be a competitive post-graduate student based on his performance in the company.
+
+He who does not agree with others easily is a man of critical thinking. Aside from his job well done, the most impressive part on him is his thirst for knowledge. In one of his projects, he was in charge of the development of a Windows-based software for RF evaluation. Besides completed his own business, he also started to study 802.11 protocols and fixed some wireless bugs during test period. He is a person who is never satisfied with superficial understanding of science and technology and wants to dig it up and up.
+
+Qiao is an initiative man knowing how and where to learn, every time he learns new knowledge, he would test it through experiment. During his induction training, he did experiments of ARP, NAT and so on to test the theoretical knowledge. He is just not satisfied with learning knowledge well, but also wants to figure out how to apply it. What’s more, during his part time, he is really active at Github and other forums and is on the frontier of technology. He also acquires knowledge through online courses and meetings or technical seminars.
+
+The working performance of Qiao Wang is outstanding: his critical thinking, own initiative, algorithm background as well as programming skill, would make him a competitive graduate student. I hereby unequivocally recommend him to your graduate program.
+
+\closing{Sincerely,}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
